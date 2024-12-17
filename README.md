@@ -1,7 +1,7 @@
 # 🤫 Whisper - Secure Peer-to-Peer Chat App
 
 <p align="center">
-  <img src="assets.xcassets/whisper-logo.png" width="200" alt="Whisper Logo">
+  <img src="Assets.xcassets/whisper-logo.png" width="200" alt="Whisper Logo">
 </p>
 
 Whisper is a privacy-focused, peer-to-peer chat application built with SwiftUI that enables secure communication between nearby devices using Apple's MultipeerConnectivity framework and ECC encryption.
