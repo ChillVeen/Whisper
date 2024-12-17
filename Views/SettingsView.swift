@@ -44,9 +44,3 @@ struct SettingsView: View {
     }
 }
 
-// Rest of the code remains the same
-struct AboutView: View {
-    var body: some View {
-        Text("Whisper - Chat Anonymously")
-    }
-}
