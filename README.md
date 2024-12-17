@@ -1,7 +1,7 @@
 # 🤫 Whisper - Secure Peer-to-Peer Chat App
 
 <p align="center">
-  <img src="assets/whisper-logo.png" width="200" alt="Whisper Logo">
+  <img src="assets.xcassets/whisper-logo.png" width="200" alt="Whisper Logo">
 </p>
 
 Whisper is a privacy-focused, peer-to-peer chat application built with SwiftUI that enables secure communication between nearby devices using Apple's MultipeerConnectivity framework and ECC encryption.
@@ -63,12 +63,12 @@ Whisper uses:
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="assets/Chat_Tab.png" width="200" alt="Chat Screen">
-  <img src="assets/Chat_Detail.png" width="200" alt="Chat Screen">
-  <img src="assets/Chat_Profile.png" width="200" alt="Chat Screen">
-  <img src="assets/Discover_Tab.png" width="200" alt="Discover Screen">
-  <img src="assets/Settings_Tab.png" width="200" alt="Settings Screen">
- <img src="assets/About.png" width="200" alt="About Screen">
+  <img src="assets.xcassets/Chat_Tab.png" width="200" alt="Chat Screen">
+  <img src="assets.xcassets/Chat_Detail.png" width="200" alt="Chat Screen">
+  <img src="assets.xcassets/Chat_Profile.png" width="200" alt="Chat Screen">
+  <img src="assets.xcassets/Discover_Tab.png" width="200" alt="Discover Screen">
+  <img src="assets.xcassets/Settings_Tab.png" width="200" alt="Settings Screen">
+ <img src="assets.xcassets/About.png" width="200" alt="About Screen">
 </p>
 
 ## 🤝 Contributing
