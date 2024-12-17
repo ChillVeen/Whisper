@@ -63,11 +63,11 @@ Whisper uses:
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="Assets.xcassets/Chat-Tab.png" width="200" alt="Chat Screen">
-  <img src="Assets.xcassets/Chat_Detail.png" width="200" alt="Chat Screen">
-  <img src="Assets.xcassets/Chat_Profile.png" width="200" alt="Chat Screen">
-  <img src="Assets.xcassets/Discover_Tab.png" width="200" alt="Discover Screen">
-  <img src="Assets.xcassets/Settings_Tab.png" width="200" alt="Settings Screen">
+  <img src="Assets.xcassets/Chat1.png" width="200" alt="Chat Screen">
+  <img src="Assets.xcassets/Chat2.png" width="200" alt="Chat Screen">
+  <img src="Assets.xcassets/Chat3.png" width="200" alt="Chat Screen">
+  <img src="Assets.xcassets/Discover.png" width="200" alt="Discover Screen">
+  <img src="Assets.xcassets/Settings.png" width="200" alt="Settings Screen">
  <img src="Assets.xcassets/About.png" width="200" alt="About Screen">
 </p>
 
