@@ -63,7 +63,7 @@ Whisper uses:
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="Assets.xcassets/Chat_Tab.png" width="200" alt="Chat Screen">
+  <img src="Assets.xcassets/Chat-Tab.png" width="200" alt="Chat Screen">
   <img src="Assets.xcassets/Chat_Detail.png" width="200" alt="Chat Screen">
   <img src="Assets.xcassets/Chat_Profile.png" width="200" alt="Chat Screen">
   <img src="Assets.xcassets/Discover_Tab.png" width="200" alt="Discover Screen">
