@@ -146,7 +146,7 @@ enum SocialLinkType {
     
     var url: URL {
         switch self {
-        case .github: return URL(string: "https://github.com/your-username")!
+        case .github: return URL(string: "https://github.com/ChillVeen")!
         case .twitter: return URL(string: "https://twitter.com/your-username")!
         case .linkedin: return URL(string: "https://linkedin.com/in/your-username")!
         }
