@@ -20,8 +20,8 @@ Whisper is a privacy-focused, peer-to-peer chat application built with SwiftUI t
 
 ### Prerequisites
 
-- iOS 15.0+
-- Xcode 13.0+
+- iOS 18.0+
+- Xcode 16.0+
 - Swift 5.5+
 
 ### Installation
