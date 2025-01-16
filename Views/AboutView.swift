@@ -7,13 +7,10 @@
 
 import SwiftUI
 
-// Main AboutView
 struct AboutView: View {
-    // Animation properties
     @State private var isAnimating = false
     @State private var showFeatures = false
     
-    // App version from bundle
     private var appVersion: String {
         Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
     }
@@ -21,7 +18,6 @@ struct AboutView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 30) {
-                // App Logo
                 Image("logo")
                     .resizable()
                     .frame(width: 100, height: 100)
@@ -34,7 +30,6 @@ struct AboutView: View {
                         value: isAnimating
                     )
                 
-                // App Title and Version
                 VStack(spacing: 8) {
                     Text("Whisper")
                         .font(.system(size: 32, weight: .bold))
@@ -42,14 +37,12 @@ struct AboutView: View {
                         .foregroundColor(.secondary)
                 }
                 
-                // Description
                 Text("Secure, Peer-to-Peer Chat")
                     .font(.headline)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
                     .foregroundColor(.green)
                 
-                // Features Section
                 VStack(alignment: .leading, spacing: 15) {
                     ForEach(AppFeature.allFeatures) { feature in
                         FeatureRow(feature: feature)
@@ -64,7 +57,6 @@ struct AboutView: View {
                 }
                 .padding()
                 
-                // Developer Info
                 VStack(spacing: 20) {
                     Text("Developed by")
                         .font(.subheadline)
@@ -74,7 +66,6 @@ struct AboutView: View {
                         .font(.title2)
                         .fontWeight(.medium)
                     
-                    // Social Links
                     HStack(spacing: 20) {
                         SocialLinkButton(type: .github)
                         SocialLinkButton(type: .twitter)
@@ -94,7 +85,6 @@ struct AboutView: View {
     }
 }
 
-// Feature Model
 struct AppFeature: Identifiable {
     let id: Int
     let icon: String
@@ -109,7 +99,6 @@ struct AppFeature: Identifiable {
     ]
 }
 
-// Feature Row View
 struct FeatureRow: View {
     let feature: AppFeature
     
@@ -132,7 +121,6 @@ struct FeatureRow: View {
     }
 }
 
-// Social Link Type and Button
 enum SocialLinkType {
     case github, twitter, linkedin
     
@@ -164,5 +152,3 @@ struct SocialLinkButton: View {
         }
     }
 }
-
-// End of file
