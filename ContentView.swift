@@ -18,7 +18,7 @@ struct ContentView: View {
     enum Tab {
         case chat
         case discover
-        case settings // Changed from profile to settings
+        case settings 
     }
     
     var body: some View {
@@ -40,7 +40,7 @@ struct ContentView: View {
             SettingsView() 
                 .environmentObject(mc)
                 .tabItem {
-                    Label("Settings", systemImage: "gear") // Changed icon
+                    Label("Settings", systemImage: "gear") 
                 }
                 .tag(Tab.settings)
         }
@@ -50,11 +50,8 @@ struct ContentView: View {
     }
 }
 
-// Preview remains the same
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-
-// End of file
